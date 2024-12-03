@@ -1,0 +1,61 @@
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "name": "Jenny",
+    "email": "jenny@gmail.com",
+    "password":"jenny789"
+}
+
+###
+###
+
+POST http://localhost:4000/fg
+Content-Type: application/json
+
+{
+    "email": "jenny@gmail.com",
+    "phone": "9874563210",
+    "password":"jenny789"
+}
+
+###
+###
+
+POST http://localhost:4000/signUp
+Content-Type: application/json
+
+{
+    "name": "Yaswanth",
+    "email": "yaswanth@gmail.com",
+    "phone": "7780157464",
+    "password":"yaswanth"
+}
+
+###
+###
+
+GET http://localhost:4000/
+Content-Type: application/json
+
+###
+###
+
+GET http://localhost:4000/trains?from=Mumbai&to=Durgapura
+Content-Type: application/json
+
+###
+###
+
+GET http://localhost:4000/flights?from=Kolkata&to=Delhi
+
+Content-Type: application/json
+
+###
+###
+
+GET http://localhost:4000/lists
+
+###
