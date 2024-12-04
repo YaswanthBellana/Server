@@ -18,7 +18,7 @@ app.use(cors());
 app.get("/", async (request, response) => {
   try {
     const query = `SELECT * FROM places;`;
-    console.log("Ckeck the home page");
+    console.log("Check the home page");
     const places = await new Promise((resolve, reject) => {
       db.all(query, (error, results) => {
         if (error) {
